@@ -1,0 +1,19 @@
+#container {
+	color: white;
+	font-family: sans-serif;
+	display: grid;
+	grid-template-columns: repeat(5, minmax(50px, 200px));
+	grid-gap: 10px;
+}
+
+.el {
+	padding: 1rem;
+	background: dimgray;
+	border: 1px darkgray solid;
+	border-radius: 10px;
+}
+
+
+
+
+
