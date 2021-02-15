@@ -1,3 +1,52 @@
+
+
+.seats_wrap {
+	width: max-content;
+
+	margin: auto;
+
+	display: grid;
+
+	grid-template-columns: 136px 304px 136px;
+
+	column-gap: 10px;
+
+}
+
+.checkbox_seat {
+	position: absolute;
+	opacity: 0;
+}
+
+.seat {
+	display: inline-block;
+	border: 1px solid dimgray;
+	height: 50px;
+	width: 50px;
+	border-radius: 7px;
+}
+
+.hall-column {
+	height: max-content;
+	border: none;
+}
+
+
+
+
+/*
+
+	
+
+	grid-template-columns: repeat(9, minmax(30px, 80px));
+	grid-gap: 10px;
+
+
+
+
+
+
+
 #container {
 	color: white;
 	font-family: sans-serif;
@@ -6,14 +55,6 @@
 	grid-gap: 10px;
 }
 
-.el {
-	padding: 1rem;
-	background: dimgray;
-	border: 1px darkgray solid;
-	border-radius: 10px;
-}
-
-
-
+*/
 
 
