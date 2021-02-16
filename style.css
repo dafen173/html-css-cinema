@@ -2,13 +2,9 @@
 
 .seats_wrap {
 	width: max-content;
-
 	margin: auto;
-
 	display: grid;
-
 	grid-template-columns: 136px 304px 136px;
-
 	column-gap: 10px;
 
 }
@@ -30,6 +26,21 @@
 	height: max-content;
 	border: none;
 }
+
+.seat:hover,
+.checkbox_seat:focus + .seat {
+	cursor: pointer;
+	border: 1px solid #ff9900;
+}
+
+.checkbox_seat:checked + .seat {
+	background-color: #ff9900;
+}
+
+.checkbox_seat:disabled + .seat {
+	background-color: #DCDCDC;
+}
+
 
 
 
