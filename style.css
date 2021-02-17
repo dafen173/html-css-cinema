@@ -1,5 +1,6 @@
 
 
+/*_____________SEATS_SECTION_____________ */
 .seats_wrap {
 	width: max-content;
 	margin: auto;
@@ -33,10 +34,12 @@
 	border: 1px solid #ff9900;
 }
 
+.seat-example__item.checked .seat-example,
 .checkbox_seat:checked + .seat {
 	background-color: #ff9900;
 }
 
+.seat-example__item.disabled .seat-example,
 .checkbox_seat:disabled + .seat {
 	background-color: #DCDCDC;
 }
@@ -61,18 +64,56 @@
 	display: inline-block;
     width: 50px;
     height: 50px;
-    margin-right: 50px;
+    margin-right: 5px;
     border-radius: 7px;
     border: 1px solid dimgray;
 }
 
-
-
 .seat-example-wrap {
     display: flex;
-
     justify-content: center;
 }
+
+.seat-example__item {
+	display: flex;
+	align-items: center;
+    margin: 10px 15px;
+    font-size: 23px;
+}
+
+/*_____________TIME_SECTION_____________ */
+
+.time-button {
+	font-size: 23px;
+	border: none;
+	color: inherit;
+	background-color: transparent;
+	transition: 0.3s linear;
+}
+
+.time-button:hover,
+.time-button:focus {
+	cursor: pointer;
+	transform: scale(1.5);
+}
+
+.timesection__list {
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+}
+
+.timesection {
+    padding: 5px 0;
+    font-size: 23px;
+    background: linear-gradient(to top, #FFFFFF, dimgray);
+    color: black;
+}
+
+h3 {
+	text-align: center;
+}
+
 
 
 
@@ -80,7 +121,22 @@
 
 /*
 
+align-items: center;
+
+.hall-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     align-items: center;
+}
+
+
+
+
+
+
+
+    
 
 
 	
