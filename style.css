@@ -41,8 +41,38 @@
 	background-color: #DCDCDC;
 }
 
+.screenCinema {
+	width: max-content;
+	margin: auto;
+}
+
+.button-buy {
+	display: block;
+	margin: 30px auto 0px auto;
+    background-color: #ff9900;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    font-size: 15px;
+    padding: 20px 30px;
+}
+
+.seat-example {
+	display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+    border-radius: 7px;
+    border: 1px solid dimgray;
+}
 
 
+
+.seat-example-wrap {
+    display: flex;
+
+    justify-content: center;
+}
 
 
 
@@ -50,7 +80,12 @@
 
 /*
 
+    align-items: center;
+
+
 	
+	
+
 
 	grid-template-columns: repeat(9, minmax(30px, 80px));
 	grid-gap: 10px;
