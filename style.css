@@ -104,7 +104,7 @@
 }
 
 .timesection {
-    padding: 5px 0;
+    padding: 35px 0;
     font-size: 23px;
     background: linear-gradient(to top, #FFFFFF, dimgray);
     color: black;
@@ -115,11 +115,51 @@ h3 {
 }
 
 
+/*_____________INFO ABOUT MOVIE_____________ */
+
+.movie-plot {
+    line-height: 1.8;
+    margin: 28px 0px;
+    max-width: 500px;
+}
+
+.movie-title {
+    font-size: 35px;
+    text-align: center;
+}
+
+.movie-info {
+	order: 2;
+	font-size: 23px;
+}
+
+.movie-poster {
+	display: flex;
+	justify-content: flex-start;
+	/*padding: 40px 3vw;*/
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.movie-img {
+	min-width: 400px;
+	object-fit: contain;
+	margin-right: 25px;
+}
+
+.movie-poster-wrap {
+	background: linear-gradient(to top, dimgray, #FFFFFF);
+}
+
+
 
 
 
 
 /*
+
+
+
 
 align-items: center;
 
@@ -131,15 +171,6 @@ align-items: center;
 }
 
 
-
-
-
-
-
-    
-
-
-	
 	
 
 
